@@ -233,7 +233,7 @@ namespace WindowsFormsApplication2
                 MessageBox.Show(v.toStringVentas());
 
                 Aart += v.pCantidad; // acumulador de articulos
-                lbltotalventas.Text = "$" + Aart.ToString();// total de articulos
+                lbltotalventas.Text =  Aart.ToString();// total de articulos
 
 
                 Amontoventas += v.calcularMonto();// acumulador monot de ventas 
