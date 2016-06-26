@@ -14,7 +14,9 @@ namespace WindowsFormsApplication2
     {
 
         double CGV, Aart, Amontoventas, cClientesGral, cRI, cM, cCF, aRI, aM, aCF, cVtasRI, cVtasM, cVtasCF, cRIM, cArtMayQ, CArt;
-
+        
+        messageBox.Show("HOOOLAAA LULUCITA");
+        
         private void btnnuevo_Click_1(object sender, EventArgs e)
         {
             this.nuevaVenta(true);
